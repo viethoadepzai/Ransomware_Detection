@@ -1,0 +1,50 @@
+{
+  "sample_hash": "439e6ce9bb5352c3c6f05cb511af4401c34a9b6910fae19bda3e20ec42a2af21",
+  "processes": [
+    {
+      "process_name": "sample.exe",
+      "pid": 1024,
+      "injected": false,
+      "commands_executed": [
+        "vssadmin.exe Delete Shadows /all /quiet",
+        "bcdedit /set {default} recoveryenabled No",
+        "bcdedit /set {default} bootstatuspolicy ignoreallfailures",
+        "icacls \"C:\\*\" /grant Everyone:F /T /C /Q"
+      ]
+    },
+    {
+      "process_name": "svchost.exe",
+      "pid": 2048,
+      "injected": true,
+      "behavior": "File Encryption"
+    }
+  ],
+  "file_system": {
+    "files_created": [
+      "C:\\Users\\Admin\\Desktop\\RyukReadMe.txt",
+      "C:\\Users\\Admin\\Documents\\RyukReadMe.txt"
+    ],
+    "files_modified_extensions": [
+      ".RYK"
+    ],
+    "target_directories": [
+      "C:\\Users\\",
+      "D:\\"
+    ]
+  },
+  "mutexes_created": [
+    "Ahnlab"
+  ],
+  "network": {
+    "dns_queries": [],
+    "connections": []
+  },
+  "encryption_activity": {
+    "api_calls": [
+      "CryptAcquireContextW",
+      "CryptGenKey",
+      "CryptEncrypt"
+    ],
+    "volume_shadow_copies_deleted": true
+  }
+}

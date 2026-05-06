@@ -1,0 +1,88 @@
+{
+  "info": {
+    "id": 12345,
+    "started": "2024-01-20 08:00:00",
+    "ended": "2024-01-20 08:02:03",
+    "duration": 123,
+    "version": "2.4",
+    "category": "file"
+  },
+  "behavior": {
+    "summary": {
+      "file_written": [
+        "C:\\Users\\Admin\\Desktop\\RyukReadMe.txt",
+        "C:\\Users\\Admin\\Documents\\RyukReadMe.txt",
+        "C:\\Users\\Admin\\Desktop\\document.docx.RYK",
+        "C:\\Users\\Admin\\Documents\\report.xlsx.RYK",
+        "C:\\Users\\Admin\\Pictures\\photo.jpg.RYK",
+        "C:\\Users\\Admin\\Downloads\\project.zip.RYK",
+        "D:\\Work\\budget.xlsx.RYK",
+        "D:\\Work\\contract.docx.RYK",
+        "D:\\Backup\\backup.zip.RYK",
+        "D:\\Projects\\src\\main.py.RYK",
+        "D:\\Projects\\src\\config.ini.RYK",
+        "D:\\Projects\\data\\db.sqlite.RYK"
+      ],
+      "file_moved": [
+        ["C:\\Users\\Admin\\Desktop\\document.docx",    "C:\\Users\\Admin\\Desktop\\document.docx.RYK"],
+        ["C:\\Users\\Admin\\Documents\\report.xlsx",    "C:\\Users\\Admin\\Documents\\report.xlsx.RYK"],
+        ["C:\\Users\\Admin\\Pictures\\photo.jpg",       "C:\\Users\\Admin\\Pictures\\photo.jpg.RYK"],
+        ["C:\\Users\\Admin\\Downloads\\project.zip",    "C:\\Users\\Admin\\Downloads\\project.zip.RYK"],
+        ["D:\\Work\\budget.xlsx",                       "D:\\Work\\budget.xlsx.RYK"],
+        ["D:\\Work\\contract.docx",                     "D:\\Work\\contract.docx.RYK"],
+        ["D:\\Backup\\backup.zip",                      "D:\\Backup\\backup.zip.RYK"],
+        ["D:\\Projects\\src\\main.py",                  "D:\\Projects\\src\\main.py.RYK"],
+        ["D:\\Projects\\src\\config.ini",               "D:\\Projects\\src\\config.ini.RYK"],
+        ["D:\\Projects\\data\\db.sqlite",               "D:\\Projects\\data\\db.sqlite.RYK"]
+      ],
+      "regkey_written": [
+        "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\svchost",
+        "HKLM\\SYSTEM\\CurrentControlSet\\Services\\Ryuk"
+      ],
+      "regkey_deleted": []
+    },
+    "processes": [
+      {
+        "process_name": "ryuk.exe",
+        "pid": 1024,
+        "ppid": 504,
+        "command_line": "C:\\Windows\\Temp\\ryuk.exe",
+        "calls": [
+          { "api": "CryptAcquireContextW", "status": 1 },
+          { "api": "CryptGenKey",          "status": 1 },
+          { "api": "CryptEncrypt",         "status": 1 },
+          { "api": "CryptEncrypt",         "status": 1 },
+          { "api": "CryptEncrypt",         "status": 1 },
+          { "api": "CreateFileW",          "status": 1 },
+          { "api": "WriteFile",            "status": 1 },
+          { "api": "WriteFile",            "status": 1 },
+          { "api": "MoveFileExW",          "status": 1 },
+          { "api": "MoveFileExW",          "status": 1 },
+          { "api": "CreateProcessW",       "status": 1 },
+          { "api": "VirtualAllocEx",       "status": 1 },
+          { "api": "WriteProcessMemory",   "status": 1 },
+          { "api": "RegSetValueExW",       "status": 1 }
+        ]
+      },
+      {
+        "process_name": "vssadmin.exe",
+        "pid": 2048,
+        "ppid": 1024,
+        "command_line": "vssadmin.exe Delete Shadows /all /quiet",
+        "calls": []
+      },
+      {
+        "process_name": "bcdedit.exe",
+        "pid": 2050,
+        "ppid": 1024,
+        "command_line": "bcdedit /set {default} recoveryenabled No",
+        "calls": []
+      }
+    ]
+  },
+  "network": {
+    "dns": [],
+    "tcp": [],
+    "udp": []
+  }
+}

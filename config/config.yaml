@@ -1,0 +1,21 @@
+project:
+  name: "Ryuk Ransomware Detection"
+  version: "1.0.0"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  manifest_path: "data/manifest.csv"
+
+model:
+  type: "xgboost"
+  params:
+    max_depth: 6
+    learning_rate: 0.1
+    n_estimators: 100
+
+training:
+  batch_size: 32
+  epochs: 50
+  random_seed: 42
+  test_size: 0.2

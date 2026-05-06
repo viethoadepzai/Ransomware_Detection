@@ -1,0 +1,42 @@
+{
+  "info": {
+    "id": 99990,
+    "started": "2024-03-10 09:00:00",
+    "ended": "2024-03-10 09:02:05",
+    "duration": 125,
+    "category": "file"
+  },
+  "behavior": {
+    "summary": {
+      "file_written": [
+        "C:\\Users\\Admin\\AppData\\Local\\Temp\\notepad_backup.txt",
+        "C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\Office\\Recent\\doc1.lnk"
+      ],
+      "file_moved": [],
+      "regkey_written": [
+        "HKCU\\Software\\Microsoft\\Office\\16.0\\Word\\RecentFiles\\File1"
+      ],
+      "regkey_deleted": []
+    },
+    "processes": [
+      {
+        "process_name": "notepad.exe",
+        "pid": 3200,
+        "ppid": 1000,
+        "command_line": "C:\\Windows\\System32\\notepad.exe document.txt",
+        "calls": [
+          { "api": "CreateFileW",  "status": 1 },
+          { "api": "WriteFile",    "status": 1 },
+          { "api": "CloseHandle",  "status": 1 },
+          { "api": "RegOpenKeyExW","status": 1 },
+          { "api": "RegSetValueExW","status": 1 }
+        ]
+      }
+    ]
+  },
+  "network": {
+    "dns": [],
+    "tcp": [],
+    "udp": []
+  }
+}

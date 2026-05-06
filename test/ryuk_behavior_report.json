@@ -1,0 +1,74 @@
+{
+  "info": {
+    "duration": 2
+  },
+  "behavior": {
+    "summary": {
+      "file_written": [
+        "C:\\Users\\Admin\\Doc\\file0.RYK",
+        "C:\\Users\\Admin\\Doc\\file1.RYK",
+        "C:\\Users\\Admin\\Doc\\file2.RYK",
+        "C:\\Users\\Admin\\Doc\\file3.RYK",
+        "C:\\Users\\Admin\\Doc\\file4.RYK",
+        "C:\\Users\\Admin\\Doc\\file5.RYK",
+        "C:\\Users\\Admin\\Doc\\file6.RYK",
+        "C:\\Users\\Admin\\Doc\\file7.RYK",
+        "C:\\Users\\Admin\\Doc\\file8.RYK",
+        "C:\\Users\\Admin\\Doc\\file9.RYK",
+        "C:\\Users\\Admin\\Doc\\file10.RYK",
+        "C:\\Users\\Admin\\Doc\\file11.RYK",
+        "C:\\Users\\Admin\\Doc\\file12.RYK",
+        "C:\\Users\\Admin\\Doc\\file13.RYK",
+        "C:\\Users\\Admin\\Doc\\file14.RYK",
+        "C:\\Users\\Admin\\Doc\\file15.RYK",
+        "C:\\Users\\Admin\\Doc\\file16.RYK",
+        "C:\\Users\\Admin\\Doc\\file17.RYK",
+        "C:\\Users\\Admin\\Doc\\file18.RYK",
+        "C:\\Users\\Admin\\Doc\\file19.RYK",
+        "C:\\Users\\Admin\\Doc\\file20.RYK",
+        "C:\\Users\\Admin\\Doc\\file21.RYK",
+        "C:\\Users\\Admin\\Doc\\file22.RYK",
+        "C:\\Users\\Admin\\Doc\\file23.RYK",
+        "C:\\Users\\Admin\\Doc\\file24.RYK"
+      ],
+      "file_moved": [
+        ["C:\\Users\\Admin\\Doc\\file0.txt", "C:\\Users\\Admin\\Doc\\file0.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file1.txt", "C:\\Users\\Admin\\Doc\\file1.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file2.txt", "C:\\Users\\Admin\\Doc\\file2.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file3.txt", "C:\\Users\\Admin\\Doc\\file3.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file4.txt", "C:\\Users\\Admin\\Doc\\file4.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file5.txt", "C:\\Users\\Admin\\Doc\\file5.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file6.txt", "C:\\Users\\Admin\\Doc\\file6.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file7.txt", "C:\\Users\\Admin\\Doc\\file7.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file8.txt", "C:\\Users\\Admin\\Doc\\file8.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file9.txt", "C:\\Users\\Admin\\Doc\\file9.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file10.txt", "C:\\Users\\Admin\\Doc\\file10.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file11.txt", "C:\\Users\\Admin\\Doc\\file11.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file12.txt", "C:\\Users\\Admin\\Doc\\file12.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file13.txt", "C:\\Users\\Admin\\Doc\\file13.RYK"],
+        ["C:\\Users\\Admin\\Doc\\file14.txt", "C:\\Users\\Admin\\Doc\\file14.RYK"]
+      ]
+    },
+    "processes": [
+      {
+        "command_line": "vssadmin delete shadows /all /quiet",
+        "calls": [
+          {"api": "CryptEncrypt"},
+          {"api": "CryptEncrypt"},
+          {"api": "CryptEncrypt"},
+          {"api": "CryptEncrypt"},
+          {"api": "CryptEncrypt"},
+          {"api": "CreateFileW"},
+          {"api": "CreateFileW"},
+          {"api": "CreateFileW"},
+          {"api": "CreateFileW"},
+          {"api": "CreateFileW"}
+        ]
+      },
+      {
+        "command_line": "bcdedit /set {default} recoveryenabled no",
+        "calls": []
+      }
+    ]
+  }
+}

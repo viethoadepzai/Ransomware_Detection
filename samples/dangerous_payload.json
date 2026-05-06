@@ -1,0 +1,9 @@
+{
+  "username": "admin' OR 1=1 --",
+  "comment": "<script>alert('XSS')</script>",
+  "command": "; rm -rf / ;",
+  "path": "../../../../etc/passwd",
+  "__proto__": {
+    "polluted": true
+  }
+}

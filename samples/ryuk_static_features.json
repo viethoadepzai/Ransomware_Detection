@@ -1,0 +1,44 @@
+{
+  "file_info": {
+    "md5": "4ebf995afb817e997e28cdd4812a32c2",
+    "sha256": "439e6ce9bb5352c3c6f05cb511af4401c34a9b6910fae19bda3e20ec42a2af21",
+    "file_size": 254976,
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows"
+  },
+  "pe_header": {
+    "machine": "IMAGE_FILE_MACHINE_I386",
+    "compile_time": "2019-01-20 15:32:11",
+    "sections": [
+      {
+        "name": ".text",
+        "entropy": 6.45
+      },
+      {
+        "name": ".data",
+        "entropy": 3.12
+      },
+      {
+        "name": ".rsrc",
+        "entropy": 5.21
+      }
+    ]
+  },
+  "imports": [
+    "kernel32.dll:CreateProcessW",
+    "kernel32.dll:WriteProcessMemory",
+    "kernel32.dll:VirtualAllocEx",
+    "kernel32.dll:CreateToolhelp32Snapshot",
+    "advapi32.dll:CryptAcquireContextW",
+    "advapi32.dll:CryptGenKey",
+    "advapi32.dll:CryptEncrypt",
+    "shell32.dll:ShellExecuteW"
+  ],
+  "strings": [
+    "RyukReadMe.txt",
+    ".RYK",
+    "UNIQUE_ID_DO_NOT_REMOVE",
+    "Ahnlab",
+    "vssadmin.exe Delete Shadows /all /quiet",
+    "bcdedit /set {default} recoveryenabled No"
+  ]
+}
