@@ -1,0 +1,737 @@
+[
+  {
+    "file": "finance_0_0.docx.lockbit",
+    "label": "ChaCha20+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 50181,
+    "algorithms": [
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "finance_0_1.docx.lockbit",
+    "label": "ChaCha20+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 100140,
+    "algorithms": [
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "finance_0_2.docx.lockbit",
+    "label": "ChaCha20+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 200140,
+    "algorithms": [
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "backup_1_0.zip.conti",
+    "label": "AES_CBC+RC4",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 50122,
+    "algorithms": [
+      "AES_CBC",
+      "RC4"
+    ]
+  },
+  {
+    "file": "backup_1_1.zip.conti",
+    "label": "AES_CBC+RC4",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 100174,
+    "algorithms": [
+      "AES_CBC",
+      "RC4"
+    ]
+  },
+  {
+    "file": "backup_1_2.zip.conti",
+    "label": "AES_CBC+RC4",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 200174,
+    "algorithms": [
+      "AES_CBC",
+      "RC4"
+    ]
+  },
+  {
+    "file": "server_2_0.vmdk.royal",
+    "label": "ChaCha20+3DES",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 50165,
+    "algorithms": [
+      "ChaCha20",
+      "3DES"
+    ]
+  },
+  {
+    "file": "server_2_1.vmdk.royal",
+    "label": "ChaCha20+3DES",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 100165,
+    "algorithms": [
+      "ChaCha20",
+      "3DES"
+    ]
+  },
+  {
+    "file": "server_2_2.vmdk.royal",
+    "label": "ChaCha20+3DES",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 200165,
+    "algorithms": [
+      "ChaCha20",
+      "3DES"
+    ]
+  },
+  {
+    "file": "project_3_0.docx.play",
+    "label": "AES_CTR+RC4",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 50108,
+    "algorithms": [
+      "AES_CTR",
+      "RC4"
+    ]
+  },
+  {
+    "file": "project_3_1.docx.play",
+    "label": "AES_CTR+RC4",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 100108,
+    "algorithms": [
+      "AES_CTR",
+      "RC4"
+    ]
+  },
+  {
+    "file": "project_3_2.docx.play",
+    "label": "AES_CTR+RC4",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 200149,
+    "algorithms": [
+      "AES_CTR",
+      "RC4"
+    ]
+  },
+  {
+    "file": "archive_4_0.bak.hive",
+    "label": "XOR+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 50173,
+    "algorithms": [
+      "XOR",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "archive_4_1.bak.hive",
+    "label": "XOR+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 100173,
+    "algorithms": [
+      "XOR",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "archive_4_2.bak.hive",
+    "label": "XOR+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 200173,
+    "algorithms": [
+      "XOR",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "database_5_0.mdf.blackcat",
+    "label": "AES_CBC+ChaCha20",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 50372,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "database_5_1.mdf.blackcat",
+    "label": "AES_CBC+ChaCha20",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 100653,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "database_5_2.mdf.blackcat",
+    "label": "AES_CBC+ChaCha20",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_full",
+    "size": 201134,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "invoice_0_0.xlsx.encrypted",
+    "label": "ChaCha20+AES_CBC",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 80040,
+    "algorithms": [
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "invoice_0_1.xlsx.encrypted",
+    "label": "ChaCha20+AES_CBC",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 150040,
+    "algorithms": [
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "invoice_0_2.xlsx.encrypted",
+    "label": "ChaCha20+AES_CBC",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 300040,
+    "algorithms": [
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "invoice_0_3.xlsx.encrypted",
+    "label": "ChaCha20+AES_CBC",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 600040,
+    "algorithms": [
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "contract_1_0.pdf.locked",
+    "label": "AES_CBC+ChaCha20",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 80040,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "contract_1_1.pdf.locked",
+    "label": "AES_CBC+ChaCha20",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 150040,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "contract_1_2.pdf.locked",
+    "label": "AES_CBC+ChaCha20",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 300040,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "contract_1_3.pdf.locked",
+    "label": "AES_CBC+ChaCha20",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 600040,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "photos_2_0.zip.enc",
+    "label": "Mixed_Scattered",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 80120,
+    "algorithms": [
+      "Mixed_Scattered"
+    ]
+  },
+  {
+    "file": "photos_2_1.zip.enc",
+    "label": "Mixed_Scattered",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 150224,
+    "algorithms": [
+      "Mixed_Scattered"
+    ]
+  },
+  {
+    "file": "photos_2_2.zip.enc",
+    "label": "Mixed_Scattered",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 300328,
+    "algorithms": [
+      "Mixed_Scattered"
+    ]
+  },
+  {
+    "file": "photos_2_3.zip.enc",
+    "label": "Mixed_Scattered",
+    "behavior": "Partial Encryption",
+    "category": "hybrid_partial",
+    "size": 600848,
+    "algorithms": [
+      "Mixed_Scattered"
+    ]
+  },
+  {
+    "file": "report_0_0.docx.lockbit",
+    "label": "AES+ChaCha20_Dual",
+    "behavior": "Intermittent Encryption",
+    "category": "hybrid_intermittent",
+    "size": 100192,
+    "algorithms": [
+      "AES",
+      "ChaCha20_Dual"
+    ]
+  },
+  {
+    "file": "report_0_1.docx.lockbit",
+    "label": "AES+ChaCha20_Dual",
+    "behavior": "Intermittent Encryption",
+    "category": "hybrid_intermittent",
+    "size": 250432,
+    "algorithms": [
+      "AES",
+      "ChaCha20_Dual"
+    ]
+  },
+  {
+    "file": "report_0_2.docx.lockbit",
+    "label": "AES+ChaCha20_Dual",
+    "behavior": "Intermittent Encryption",
+    "category": "hybrid_intermittent",
+    "size": 500832,
+    "algorithms": [
+      "AES",
+      "ChaCha20_Dual"
+    ]
+  },
+  {
+    "file": "vm_1_0.vmdk.blackcat",
+    "label": "AES_Escalating",
+    "behavior": "Intermittent Encryption",
+    "category": "hybrid_intermittent",
+    "size": 100512,
+    "algorithms": [
+      "AES_Escalating"
+    ]
+  },
+  {
+    "file": "vm_1_1.vmdk.blackcat",
+    "label": "AES_Escalating",
+    "behavior": "Intermittent Encryption",
+    "category": "hybrid_intermittent",
+    "size": 250992,
+    "algorithms": [
+      "AES_Escalating"
+    ]
+  },
+  {
+    "file": "vm_1_2.vmdk.blackcat",
+    "label": "AES_Escalating",
+    "behavior": "Intermittent Encryption",
+    "category": "hybrid_intermittent",
+    "size": 502144,
+    "algorithms": [
+      "AES_Escalating"
+    ]
+  },
+  {
+    "file": "photo_0_0.png.encrypted",
+    "label": "XOR+AES_Multipass",
+    "behavior": "Header Tampering",
+    "category": "hybrid_header",
+    "size": 60032,
+    "algorithms": [
+      "XOR",
+      "AES_Multipass"
+    ]
+  },
+  {
+    "file": "photo_0_1.png.encrypted",
+    "label": "XOR+AES_Multipass",
+    "behavior": "Header Tampering",
+    "category": "hybrid_header",
+    "size": 120032,
+    "algorithms": [
+      "XOR",
+      "AES_Multipass"
+    ]
+  },
+  {
+    "file": "photo_0_2.png.encrypted",
+    "label": "XOR+AES_Multipass",
+    "behavior": "Header Tampering",
+    "category": "hybrid_header",
+    "size": 300032,
+    "algorithms": [
+      "XOR",
+      "AES_Multipass"
+    ]
+  },
+  {
+    "file": "scan_1_0.pdf.lockbit",
+    "label": "RSA_Blob+ChaCha20",
+    "behavior": "Header Tampering",
+    "category": "hybrid_header",
+    "size": 60008,
+    "algorithms": [
+      "RSA_Blob",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "scan_1_1.pdf.lockbit",
+    "label": "RSA_Blob+ChaCha20",
+    "behavior": "Header Tampering",
+    "category": "hybrid_header",
+    "size": 120008,
+    "algorithms": [
+      "RSA_Blob",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "scan_1_2.pdf.lockbit",
+    "label": "RSA_Blob+ChaCha20",
+    "behavior": "Header Tampering",
+    "category": "hybrid_header",
+    "size": 300008,
+    "algorithms": [
+      "RSA_Blob",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "layered_triple_0.docx.crypt",
+    "label": "XOR+RC4+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_layered",
+    "size": 50032,
+    "algorithms": [
+      "XOR",
+      "RC4",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "layered_triple_1.docx.crypt",
+    "label": "XOR+RC4+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_layered",
+    "size": 100032,
+    "algorithms": [
+      "XOR",
+      "RC4",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "layered_triple_2.docx.crypt",
+    "label": "XOR+RC4+AES_CBC",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_layered",
+    "size": 200032,
+    "algorithms": [
+      "XOR",
+      "RC4",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "layered_double_0.sql.ryk",
+    "label": "AES_ECB+ChaCha20",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_layered",
+    "size": 50024,
+    "algorithms": [
+      "AES_ECB",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "layered_double_1.sql.ryk",
+    "label": "AES_ECB+ChaCha20",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_layered",
+    "size": 100024,
+    "algorithms": [
+      "AES_ECB",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "layered_double_2.sql.ryk",
+    "label": "AES_ECB+ChaCha20",
+    "behavior": "Uniform Encryption",
+    "category": "hybrid_layered",
+    "size": 200024,
+    "algorithms": [
+      "AES_ECB",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "lockbit3_0.docx.lockbit",
+    "label": "LockBit3.0",
+    "behavior": "Intermittent Encryption",
+    "category": "realistic_families",
+    "size": 200557,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "lockbit3_1.docx.lockbit",
+    "label": "LockBit3.0",
+    "behavior": "Intermittent Encryption",
+    "category": "realistic_families",
+    "size": 501133,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "lockbit3_2.docx.lockbit",
+    "label": "LockBit3.0",
+    "behavior": "Intermittent Encryption",
+    "category": "realistic_families",
+    "size": 1002125,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "ryuk_0.sql.ryk",
+    "label": "Ryuk",
+    "behavior": "Partial Encryption",
+    "category": "realistic_families",
+    "size": 150396,
+    "algorithms": [
+      "RSA_blob",
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "ryuk_1.sql.ryk",
+    "label": "Ryuk",
+    "behavior": "Partial Encryption",
+    "category": "realistic_families",
+    "size": 300396,
+    "algorithms": [
+      "RSA_blob",
+      "ChaCha20",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "conti_0.xlsx.conti",
+    "label": "Conti",
+    "behavior": "Uniform Encryption",
+    "category": "realistic_families",
+    "size": 100032,
+    "algorithms": [
+      "AES_CBC",
+      "RC4"
+    ]
+  },
+  {
+    "file": "conti_1.xlsx.conti",
+    "label": "Conti",
+    "behavior": "Uniform Encryption",
+    "category": "realistic_families",
+    "size": 400032,
+    "algorithms": [
+      "AES_CBC",
+      "RC4"
+    ]
+  },
+  {
+    "file": "blackcat_0.pdf.blackcat",
+    "label": "BlackCat",
+    "behavior": "Intermittent Encryption",
+    "category": "realistic_families",
+    "size": 200512,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "blackcat_1.pdf.blackcat",
+    "label": "BlackCat",
+    "behavior": "Intermittent Encryption",
+    "category": "realistic_families",
+    "size": 801960,
+    "algorithms": [
+      "AES_CBC",
+      "ChaCha20"
+    ]
+  },
+  {
+    "file": "play_0.docx.play",
+    "label": "Play",
+    "behavior": "Partial Encryption",
+    "category": "realistic_families",
+    "size": 250008,
+    "algorithms": [
+      "RC4",
+      "AES_CTR"
+    ]
+  },
+  {
+    "file": "play_1.docx.play",
+    "label": "Play",
+    "behavior": "Partial Encryption",
+    "category": "realistic_families",
+    "size": 250008,
+    "algorithms": [
+      "RC4",
+      "AES_CTR"
+    ]
+  },
+  {
+    "file": "hive_0.pdf.hive",
+    "label": "Hive",
+    "behavior": "Uniform Encryption",
+    "category": "realistic_families",
+    "size": 300032,
+    "algorithms": [
+      "XOR",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "hive_1.pdf.hive",
+    "label": "Hive",
+    "behavior": "Uniform Encryption",
+    "category": "realistic_families",
+    "size": 300032,
+    "algorithms": [
+      "XOR",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "royal_0.xlsx.royal",
+    "label": "Royal",
+    "behavior": "Uniform Encryption",
+    "category": "realistic_families",
+    "size": 350024,
+    "algorithms": [
+      "ChaCha20",
+      "3DES_CBC"
+    ]
+  },
+  {
+    "file": "royal_1.xlsx.royal",
+    "label": "Royal",
+    "behavior": "Uniform Encryption",
+    "category": "realistic_families",
+    "size": 350024,
+    "algorithms": [
+      "ChaCha20",
+      "3DES_CBC"
+    ]
+  },
+  {
+    "file": "wannacry_0.jpg.wcry",
+    "label": "WannaCry",
+    "behavior": "Uniform Encryption",
+    "category": "realistic_families",
+    "size": 100288,
+    "algorithms": [
+      "RSA_blob",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "wannacry_1.jpg.wcry",
+    "label": "WannaCry",
+    "behavior": "Uniform Encryption",
+    "category": "realistic_families",
+    "size": 100288,
+    "algorithms": [
+      "RSA_blob",
+      "AES_CBC"
+    ]
+  },
+  {
+    "file": "phobos_0.doc.phobos",
+    "label": "Phobos",
+    "behavior": "Pattern Leakage",
+    "category": "realistic_families",
+    "size": 100016,
+    "algorithms": [
+      "RC4",
+      "AES_ECB"
+    ]
+  },
+  {
+    "file": "phobos_1.doc.phobos",
+    "label": "Phobos",
+    "behavior": "Pattern Leakage",
+    "category": "realistic_families",
+    "size": 100016,
+    "algorithms": [
+      "RC4",
+      "AES_ECB"
+    ]
+  }
+]

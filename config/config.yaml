@@ -1,21 +1,79 @@
 project:
-  name: "Ryuk Ransomware Detection"
-  version: "1.0.0"
+  name: "AI Encryption Algorithm Detector"
+  version: "2.0.0"
+  description: "Phát hiện thuật toán mã hóa đa dạng trong file do ransomware tống tiền tác động"
+
+# Danh sách các thuật toán mã hóa cần phát hiện
+algorithms:
+  - name: "AES_ECB"
+    cipher: "AES"
+    mode: "ECB"
+    key_size: 32
+  - name: "AES_CBC"
+    cipher: "AES"
+    mode: "CBC"
+    key_size: 32
+  - name: "DES_ECB"
+    cipher: "DES"
+    mode: "ECB"
+    key_size: 8
+  - name: "DES_CBC"
+    cipher: "DES"
+    mode: "CBC"
+    key_size: 8
+  - name: "3DES_ECB"
+    cipher: "3DES"
+    mode: "ECB"
+    key_size: 24
+  - name: "3DES_CBC"
+    cipher: "3DES"
+    mode: "CBC"
+    key_size: 24
+  - name: "RC4"
+    cipher: "RC4"
+    mode: null
+    key_size: 16
+  - name: "ChaCha20"
+    cipher: "ChaCha20"
+    mode: null
+    key_size: 32
+  - name: "NoEncryption"
+    cipher: null
+    mode: null
+    key_size: null
 
 data:
   raw_dir: "data/raw"
   processed_dir: "data/processed"
-  manifest_path: "data/manifest.csv"
+  encrypted_samples_dir: "data/raw/encrypted_samples"
+  samples_per_algorithm: 1500 
+  sample_file_sizes: [1024, 4096, 16384, 65536]
+  block_size: 4096
 
 model:
-  type: "xgboost"
+  type: "random_forest"
+  compare_models: ["random_forest", "xgboost", "knn"]
   params:
-    max_depth: 6
-    learning_rate: 0.1
-    n_estimators: 100
+    n_estimators: 200
+    max_depth: 20
+    random_state: 42
 
 training:
-  batch_size: 32
-  epochs: 50
-  random_seed: 42
   test_size: 0.2
+  cv_folds: 5
+  random_seed: 42
+
+features:
+  statistical:
+    - entropy
+    - mean
+    - std_dev
+    - variance
+    - skewness
+    - kurtosis
+    - median
+    - chi_square
+    - energy
+    - rms
+    - serial_correlation
+  histogram_bins: 256
