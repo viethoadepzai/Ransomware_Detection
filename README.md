@@ -1,6 +1,19 @@
-# 🔬 AI Encryption Detector - Fusion EDR Engine (FINAL V11)
+# 🛡️ AI Fusion EDR: Hybrid Ransomware Detection & Encryption Analysis Engine
+
+![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![Machine Learning](https://img.shields.io/badge/AI%20Model-XGBoost%20%7C%20RandomForest-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Research_Grade-brightgreen.svg)
 
 Dự án nghiên cứu cấp độ chuyên gia (Research-Grade) ứng dụng Trí tuệ nhân tạo (AI) để **phát hiện và phân loại thuật toán mã hóa** do các dòng ransomware hiện đại gây ra. Thay vì chỉ phát hiện dựa trên chữ ký (signature) truyền thống, hệ thống sử dụng **Kiến trúc Fusion EDR 4 Giai đoạn** đi sâu vào cấu trúc tệp tin (block-level), phân tích ngữ nghĩa (semantic integrity) và hành vi entropy để nhận diện chính xác thuật toán mã hóa cũng như các thủ đoạn mã hóa lai (Hybrid Encryption) tinh vi nhất.
+
+---
+
+## 📷 Giao diện hệ thống (XAI Dashboard)
+<!-- TODO: Thay thế đường dẫn ảnh bằng ảnh thật màn hình GUI của dự án -->
+![Enterprise XAI Dashboard](https://via.placeholder.com/800x400.png?text=Dashboard+XAI+Dual+Entropy+Graph)
+
+*Hình 1: Giao diện Enterprise XAI Dashboard tích hợp biểu đồ Dual Entropy và phân tích rủi ro chi tiết.*
 
 ---
 
@@ -44,7 +57,7 @@ Hệ thống có khả năng nhận diện 7 lớp hành vi mã hóa (Behavior C
 
 ---
 
-## 🔬 Trích xuất đặc trưng (Feature Engineering - FINAL V10)
+## 🔬 Trích xuất đặc trưng (Feature Engineering)
 
 Lõi thuật toán `crypto_features.py` trích xuất các nhóm đặc trưng toán học và cấu trúc sau:
 
@@ -54,7 +67,7 @@ Lõi thuật toán `crypto_features.py` trích xuất các nhóm đặc trưng t
 - **Chi-square Test & Serial Correlation**: Kiểm tra độ đồng đều phân phối byte và tương quan nối tiếp.
 - **Hình thái phân bố**: Mean, Median, Variance, Skewness, Kurtosis.
 
-### 2. Phân tích tính toàn vẹn cấu trúc (Structural Integrity - V12 Optimized)
+### 2. Phân tích tính toàn vẹn cấu trúc (Structural Integrity)
 - Kiểm tra tính hợp lệ của Header/Footer đặc trưng của định dạng file gốc.
 - **Image Integrity**: Phân tích IHDR/IDAT, Pixel Stream Decoding (bắt lỗi crash nếu file bị mã hóa một phần).
 - **PDF/ZIP Integrity**: Kiểm tra sự tồn tại của `%%EOF`, Magic headers (`PK`), và kiểm tra thử cấu trúc XML lõi bên trong tài liệu Office (`word/document.xml`, `xl/workbook.xml`).
@@ -89,6 +102,14 @@ Lõi thuật toán `crypto_features.py` trích xuất các nhóm đặc trưng t
 
 ---
 
+## ⚙️ Yêu cầu hệ thống (System Requirements)
+- **OS**: Windows 10/11, Linux (Ubuntu 20.04+), hoặc macOS.
+- **CPU**: Multi-core processor (Khuyến nghị 4 cores trở lên cho Multi-threading Scan).
+- **RAM**: Tối thiểu 8GB (Khuyến nghị 16GB để nạp dataset lớn vào mmap & huấn luyện mô hình).
+- **Python**: Phiên bản `3.8` trở lên.
+
+---
+
 ## 🚀 Hướng dẫn cài đặt
 
 **1. Clone kho lưu trữ:**
@@ -100,8 +121,10 @@ cd ransomeware
 **2. Tạo môi trường ảo và cài đặt thư viện:**
 ```bash
 python -m venv .venv
+
 # Trên Windows:
 .\.venv\Scripts\activate
+
 # Trên Linux/Mac:
 # source .venv/bin/activate
 
@@ -136,6 +159,7 @@ python -m src.train_crypto --config config/config.yaml
 
 ### 4. Phát hiện qua Command Line (CLI Integration)
 Sử dụng cho hệ thống backend hoặc tích hợp vào hệ thống phản ứng tự động (SOAR/SIEM).
+
 ```bash
 # Quét kiểm tra 1 tệp tin
 python -m src.detect_encryption --file "path/to/suspicious_file.enc"
@@ -146,8 +170,6 @@ python -m src.detect_encryption --blocks "path/to/suspicious_file.enc"
 # Quét đệ quy toàn bộ thư mục
 python -m src.detect_encryption --dir "path/to/directory"
 ```
-
----
 
 ## 📚 Tài liệu & Nghiên cứu tham khảo
 - **Hybrid Encryption & Tactic Leakage**: *LockBit 3.0 & BlackCat Ransomware Intermittent Encryption Analysis*.
